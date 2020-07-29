@@ -1,0 +1,504 @@
+*:focus {
+    outline: none;
+}
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+.contact {
+    width: 92%;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#email {
+    text-decoration: none;
+    background: rgb(11, 3, 82);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+#email.hover {
+    cursor: pointer;
+}
+#p {
+    font-size: 17px;
+}
+.sideBar {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background: white;
+    z-index: 1;
+    margin-left: -350px;
+    transition: .5s;
+    display: none;
+}
+.BtnBox {
+    display: none;
+}
+.menuBox {
+    width: 80%;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.menuBox ul li a  {
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    color: rgb(39, 5, 112);
+    margin-top: 5px;
+    font-weight: 600;
+    transition: .1s;
+}
+.menuBox ul li a:hover {
+    background-color: rgba(57, 3, 128, 0.493);
+    color: white;
+    border-left: 4px solid rgb(39, 5, 112)
+}
+.sideBar p {
+    display: flex;
+}
+.sideBar p a {
+    
+    display: block;
+    color: rgb(39, 5, 112);
+    border-bottom: 4px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.sideBar p ul li a:hover {
+    border-bottom: 4px solid rgb(39, 5, 112) ;
+}
+#ursfab2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+#computers2 {
+    font-size: 20px;
+}
+#noHover:hover {
+    border-bottom: 0px;
+}
+#addHover a:hover {
+    border-bottom: 4px solid rgb(25, 5, 112);
+}
+.header{
+    width: 100%;
+    background: rgb(16, 5, 112);
+    display: flex;  
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+.h1-Box {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    word-spacing: -15px;
+    transition: .2s;
+    color: white;
+}
+#ursfab {
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+#computers {
+    font-weight: 100;
+    letter-spacing: -4px;
+}
+.linksBox {
+   margin-left: 53%;
+   margin-top: 40px;
+   font-size: 20px;
+}
+.linkInnerBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.linksBox a {
+    display: inline-block;
+    padding: 13px 11px;
+    color: white;
+    transition: .2s;
+    border-bottom: 2px solid rgb(84, 11, 179);
+}
+.linksBox a:hover {
+    border-bottom: 2px solid white;
+}
+#nav {
+    z-index: 1;
+    background: white;
+    box-shadow: 0px 2px 5px rgb(158, 158, 158);
+    position: sticky;
+}
+.lineDown {
+    width: 100px;
+    border-bottom: 4px solid rgb(84, 11, 179); 
+}
+.header ul {
+    width: 99%;
+    justify-content: center;
+    display: flex;
+}
+.header ul li {
+    display: inline;
+    justify-content: space-evenly;
+}
+.header ul li a {
+    display: block;
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    border-bottom: 3px solid white;
+    transition: .1s;
+}
+.header ul li a:hover, #active {
+    border-bottom: 3px solid rgb(39, 5, 112);
+    color:rgb(39, 5, 112);
+}
+.content {
+    width: 100%;
+    position: absolute;
+}
+.headerImage {
+    z-index: 0;
+    background: url(vector/971\ -\ Copy\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.stuff {
+   height: 600px
+}
+.h2-Box {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#h2 {
+    width: max-content;
+    font-size: 40px;
+    color: rgb(39, 5, 112);
+}
+.descriptionBox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    border: none;
+}
+.descriptionBox a {
+    text-decoration: none;
+    color: black;
+    margin: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#top {
+    margin-top: 20px;
+}
+#bottom {
+    margin-bottom: 20px;
+}
+#bottom2 {
+    margin-bottom: 20px;
+    background: rgb(16, 5, 112);
+    width: 100%;
+    color: white;
+}
+.description  .h3 {
+    font-size: 23px;
+}
+#bottom2 .description {
+    border: 1px solid white;
+    color: white;
+    transition: .5s;
+}
+#bottom2 .description:hover {
+    background: white;
+    color: rgb(84, 11, 179);
+}
+#bottom2 #documents {
+    margin-left: 20px;
+}
+.description {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transition: .3s;
+}
+.description:hover {
+    border: 1px solid rgb(39, 5, 112);
+    box-shadow: 0px 0px 7px rgba(84, 11, 179, 0.397);
+}
+.descriptionTxt {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#training {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#registeratons {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#documents {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#content {
+    display: block;
+    width: 90%;
+}
+
+#h3 {
+    font-size: 25px;
+    color: rgb(39, 5, 112);
+}
+#img1 {
+    width: 90%;
+    margin: auto;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(16, 5, 112);
+    padding-bottom: 40px;
+}
+#footer1 {
+    background: transparent;
+    height: 100px;
+}
+#footer2 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+.footer-Left {
+    width: 50%;
+}
+.footer-Left p {
+    margin-left: 20px;
+    color: white;
+    line-height: 25px;
+}
+.footer-Left p a, .footer-Right p a{
+   text-decoration: none;
+   color: white;
+}
+.footer-Right {
+    width: 50%;
+}
+.footer-Right p {
+    color: white;
+    line-height: 25px;
+}
+.searchBox {
+    margin-top: 30px;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#searchInput {
+    padding: 0px 8px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    width: 75%;
+    height: 100%;
+    font-size: 17px;
+    margin-right: 0px;
+    color: rgb(39, 5, 112);
+}
+#searchBtn {
+    width: 25%;
+    font-size: 25px;
+    color: rgb(16, 5, 112);
+    background: white;
+    border: 1px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .5s;
+}
+#searchBtn:hover {
+    background: rgb(16, 5, 112);
+    color: white;
+}
+#bottomLink {
+    padding:  10px 15px;
+    transition: .5s;
+    border-bottom: 4px solid rgb(16, 5, 112);
+}
+#bottomLink:hover {
+    border-bottom: 4px solid white;
+}
+.BtnBox {
+    display: none;
+}
+.BtnBox2 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+    background: transparent;
+    color: rebeccapurple
+    
+}
+.BtnBox2 button {
+    display: block;
+    font-size: 23px;
+    padding: 5px 10px;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+.BtnBox2 button:hover {
+    color: rgb(39, 5, 112);
+}
+@media only screen and (max-device-width: 1500px), only screen and  (max-width: 1500px) {
+    #homeHeader .linksBox {
+        display: none;
+    }
+}
+@media only screen and (max-device-width: 750px), only screen and  (max-width: 750px) {
+    .descriptionBox {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-device-width: 920px), only screen and  (max-width: 920px) {
+    #nav  {
+        display: none;
+    }
+    #sideBar {
+        display: block;
+    }
+    .BtnBox {
+        background: rgb(16, 5, 112);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .BtnBox button {
+        color: white;
+        background: transparent;
+        border: none;
+        display: block;
+        font-size: 23px;
+        padding: 5px 5px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .BtnBox:hover {
+        background: rgb(11, 3, 82);
+    }
+}
+@media only screen and (max-device-width: 1080px), only screen and  (max-width: 1080px) {
+    .linksBox {
+        display: none;
+    }
+}   
+@media only screen and (max-device-width: 1080px), only screen and  (max-width: 1080px) {
+    #h2 {
+        font-size: 20px;
+    }
+    #nav a {
+        font-size: 20px;
+    }
+    #active {
+        color: rgb(39, 5, 112);
+        border-bottom: none;
+        border-left: 4px solid rgb(39, 5, 112);
+        background: white;
+    }
+    #footer2 {
+        flex-direction: column;
+    }
+    #bottom2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #bottom2  a {
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    #bottom2 #training {
+        margin-right: 20px;
+    }
+    .searchBox {
+        width: 50%;
+        min-width: 220px;
+    }
+    .footer-Right {
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    .footer-Left {
+        width: 95%;
+    }
+}  
+@media only screen and (max-device-width: 1250px), only screen and  (max-width: 1250px) {
+    .headerImage {
+        background: url(vector/971\ -\ Copy\ \(3\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+    #logo {
+        font-size: 40px;
+    }
+    #h2 {
+        font-size: 25px;
+    }
+    .h2-Box {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .lineDown {
+        width: 65px;
+    }
+}
+
+@media only screen and (max-device-width: 600), only screen and  (max-width: 600px) {
+    .headerImage {
+        background: url(vector/971\ -\ Copyy\ \(2\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 550px;
+    }
+    .h1-Box {
+        margin-left: 0px;
+    }
+        #logo{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #computers {
+        letter-spacing: -2px;
+    }
+}
